@@ -1,0 +1,237 @@
+* {
+  /* global size fixing */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  display: flex;
+}
+#logo {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+#searchbar {
+  margin-top: 25px;
+  margin-left: 200px;
+
+  width: 700px;
+}
+
+#s input {
+  height: 30px;
+  width: 70%;
+  border: 1px solid red;
+}
+
+#submit input {
+  margin-left: 200px;
+  border: 1px solid black;
+
+  padding: 5px;
+}
+
+#login {
+  margin-top: 20px;
+  margin-left: 50px;
+  position: fixed;
+  right: 50px;
+  cursor: pointer;
+}
+
+.custom-hr {
+  color: red;
+}
+#leftside {
+  display: flex;
+}
+#filter {
+  display: flex;
+}
+
+#text {
+  display: inline-block;
+}
+nav {
+  font-family: "Ysabeau", sans-serif;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#filterimage {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#filterimage img {
+  width: 40px;
+  cursor: pointer;
+}
+
+#pricerange {
+  font-size: large;
+
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 20%;
+
+}
+
+#pricerange input{
+
+margin-top: 20px;
+
+}
+#discountrange {
+  font-size: large;
+  width: 20%;
+  margin-left: 50px;
+}
+#discountrange input {
+
+    margin-top: 20px;
+}
+#toptext {
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+#aaside {
+  width: 20%;
+  display: block;
+}
+aside {
+  margin-left: 50px;
+}
+
+summary {
+  color: red;
+  font-weight: 500px;
+}
+
+#hrt hr {
+  width: 250px;
+}
+
+#images {
+  width: 80%;
+
+}
+
+#frow {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* 
+    margin-top: 50px; */
+}
+#frow div {
+  width: 20%;
+  height: 300px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+.dis{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 70%;
+  
+    padding: 10px;
+    color: white;
+}
+#frow img {
+  width: 50%;
+  height: 30%;
+  object-fit: contain;
+  margin-left: 40px;
+}
+.books-main {
+  border: 1px solid red;
+  display: flex;
+}
+.books-main > div:nth-child(1) {
+
+  width: 20%;
+}
+
+.caption{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 20px;
+}
+
+.author{
+
+
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.actual{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size:x-large;
+    color: red;
+}
+
+.notactual{
+
+text-decoration:line-through;
+}
+
+hr{
+
+    border:  red;
+}
+
+#copy{
+margin-top: 50px;
+text-align: center;
+font-size: larger;
+color: gray;
+
+}
+
+#logos{
+    display: flex;
+    object-fit: contain;
+    margin-left: 40%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+#bottom{
+display: flex;
+margin-left: 20%;
+}
+
+#navigation{
+
+    margin-left: 20%;
+    display: flex;
+}
+
+#capt{
+color: red;
+background-color: blue;
+    
+}

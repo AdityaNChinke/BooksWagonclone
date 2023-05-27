@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="book.css" type="text/css">
+    <link rel="icon" href="images/download.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300;400&family=Ysabeau:wght@200&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="main">
+            <div id="logo">
+                <img src="images/logo-new.png" alt="">
+            </div>
+            <div id="searchbar">
+                <div id="s">
+                    <input type="text" placeholder="Search by Title,Author,etc....">
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Search">
+                </div>
+
+            </div>
+            <div id="login">
+                <img alt="Humburger Icon" style="width:30px;margin-top: -14px;" src="images/download.svg">
+            </div>
+    </header>
+    <hr class="custom-hr">
+
+    <div class="books-main">
+ 
+   
+    
+        <div>
+            <div id="leftside">
+                <div id="filter"></div>
+                <!-- text  -->
+                <div id="text">
+                    <nav><i><b>
+                                Refine you search</b></i></nav>
+                    </nav>
+        
+                </div>
+                <!-- filter icon -->
+                <div id="filterimage">
+                    <img src="images/clearfilter.svg" alt="">
+        
+                </div>
+        
+            </div>
+            
+            <div id="pricerange">Price range:&#8377;0 - &#8377;50000     
+         <input type="range" min="0" max="100" value="50" step="1" id="myRange" /></div>
+       
+            <div id="discountrange">Discount range:0&#x0025;-40 &#x0025;  <input type="range" min="0" max="100" value="50" step="1" id="myRange" /></div>
+           
+            <br>
+            <br>
+            <div id="aaside">
+                <aside>
+                    <details>
+                        <summary><i> Binding</i>
+                        </summary>
+                        <br>
+
+
+                        <p>
+                            <input type="checkbox" name="pet" id="dog" value="dog">
+                            <label for="dog">Paper Bag</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="cat" value="cat">
+                            <label for="cat">Hard Cover</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="horse" value="horse">
+                            <label for="horse">Others</label>
+                        </p>
+
+                    </details>
+
+                </aside>
+                <br>
+                <aside id="language">
+                    <details>
+                        <summary><i> Language</i>
+                        </summary>
+
+                        <br>
+
+                        <p>
+                            <input type="checkbox" name="pet" id="dog" value="dog">
+                            <label for="dog">English</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="cat" value="cat">
+                            <label for="cat">Hindi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="horse" value="horse">
+                            <label for="horse">Bengali</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="horse" value="horse">
+                            <label for="horse">Assamese</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pet" id="horse" value="horse">
+                            <label for="horse">Malyalam</label>
+                        </p>
+
+
+                    </details>
+
+                </aside>
+            </div>
+        </div>
+
+
+        <div id="images">
+            <div id="toptext">New Arrivals</div>
+            <div id="frow">
+                <div> 
+                    <figure>    <span class="number">1</span> <span class="dis">85%</span>
+                    <img src="images/9788195388660.jpg" alt="" ><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure>
+              
+                
+                </div>
+
+                <div><figure><span class="number">2</span> <span class="dis">85%</span> 
+                    <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+
+                <div><figure><span class="number">3</span> <span class="dis">85%</span> 
+                    <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">4</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">5</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">6</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">7</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">8</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">9</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">10</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                <div><figure><span class="number">11</span> <span class="dis">85%</span>
+                     <img src="images/9788195388660.jpg" alt=""><figcaption class="caption">Service with Guru Nanak</figcaption><figcaption class="author">Debasmita Dasgup</figcaption><figcaption class="price"><span class="actual">&#8377;359</span>&#x0020;&#x0020;&#x0020;&#x0020;<span class="notactual">&#8377;499</span></figcaption></figure></div>
+                
+
+            </div>
+        </div>
+        
+
+
+
+
+    </div>
+    </div>
+    <hr>
+    <footer>
+        <div id="bottom">
+        <div id="navigation">
+        <nav>
+            <caption id="capt">Company</caption>
+            <ul>
+                <li>
+                    <a href="#head">About Us</a>
+            
+                </li>
+                <li>
+                    <a href="#tail">Career</a>
+                </li>
+                <li>
+                    <a href="#contact_me">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact_me">Contact Us</a>
+                </li>
+            </ul>
+            
+                </nav>
+            </div>
+            <div id="navigation2">
+                <nav>
+                    <caption id="capt">Policies</caption>
+                    <ul>
+                        <li>
+                            <a href="#head">Privacy Policies</a>
+                    
+                        </li>
+                        <li>
+                            <a href="#tail">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#contact_me">Secure Shopping</a>
+                        </li>
+                        <li>
+                            <a href="#contact_me">Copyright Policy</a>
+                        </li>
+                    </ul>
+                    
+                        </nav>
+                    </div>
+        </div>
+        <div id=logos>
+            <div><img src="images/facebook.png" alt=""></div>
+            <div><img src="images/instagram.png" alt=""></div>
+            <div><img src="images/linkedin.png" alt=""></div>
+            <div><img src="images/pinterest.png" alt=""></div>
+            <div><img src="images/twitter.png" alt=""></div>
+            <div><img src="images/youtube.png" alt=""></div>
+        </div>
+     <div id="copy"> Copyright&#x0020; &copy;&#x0020; 2023.Bookswagon.com. All Rights Reserved</div>
+    </footer>
+</body>
+
+</html>
